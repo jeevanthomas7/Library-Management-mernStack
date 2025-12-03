@@ -16,8 +16,8 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-4">
-          <Link to="/" className="text-sm text-slate-700 hover:text-indigo-700">Home</Link>
-          <Link to="/books" className="text-sm text-slate-700 hover:text-indigo-700">Book Store</Link>
+          <Link to="/" className="text-sm text-slate-700 hover:text-indigo-700">Admin</Link>
+          <Link to="/books" className="text-sm text-slate-700 hover:text-indigo-700">Admin Store</Link>
           <a href="#contact" className="text-sm text-slate-700 hover:text-indigo-700">Contact</a>
         </nav>
 
@@ -25,9 +25,8 @@ export default function Header() {
           <Link to="/books" className="hidden sm:inline-block px-3 py-2 bg-indigo-600 text-white rounded-lg shadow-sm hover:bg-indigo-700">
             Browse Store
           </Link>
-          <button className="p-2 rounded-md bg-slate-50 border border-slate-100 text-slate-600 hover:bg-slate-100">Sign in</button>
-        </div>
-      </div>
+         
+      </div></div>
     </header>
   );
 }
